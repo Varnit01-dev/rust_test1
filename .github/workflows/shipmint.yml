@@ -1,1 +1,177 @@
-bmFtZTogQW5jaG9yIEJ1aWxkLCBUZXN0IGFuZCBEZXBsb3kKCm9uOgogIHB1c2g6CiAgICBicmFuY2hlczoKICAgICAgLSBtYWluCiAgcHVsbF9yZXF1ZXN0OgogICAgYnJhbmNoZXM6CiAgICAgIC0gbWFpbgoKZW52OgogIFNPTEFOQV9WRVJTSU9OOiAiMS4xOC40IgogIEFOQ0hPUl9WRVJTSU9OOiAiMC4zMC4xIgogIE5PREVfVkVSU0lPTjogIjE4IgogIE5FVFdPUks6ICJkZXZuZXQiCgpqb2JzOgogIGJ1aWxkLWFuZC10ZXN0OgogICAgcnVucy1vbjogdWJ1bnR1LWxhdGVzdAogICAgc3RlcHM6CiAgICAgIC0gbmFtZTogQ2hlY2tvdXQgQ29kZQogICAgICAgIHVzZXM6IGFjdGlvbnMvY2hlY2tvdXRAdjQKCiAgICAgIC0gbmFtZTogU2V0dXAgTm9kZS5qcwogICAgICAgIHVzZXM6IGFjdGlvbnMvc2V0dXAtbm9kZUB2NAogICAgICAgIHdpdGg6CiAgICAgICAgICBub2RlLXZlcnNpb246ICR7eyBlbnYuTk9ERV9WRVJTSU9OIH19CgogICAgICAtIG5hbWU6IENhY2hlIG5wbSBkZXBlbmRlbmNpZXMKICAgICAgICB1c2VzOiBhY3Rpb25zL2NhY2hlQHY0CiAgICAgICAgd2l0aDoKICAgICAgICAgIHBhdGg6IH4vLm5wbQogICAgICAgICAga2V5OiAke3sgcnVubmVyLm9zIH19LW5vZGUtJHt7IGhhc2hGaWxlcygnKiovcGFja2FnZS1sb2NrLmpzb24nKSB9fQogICAgICAgICAgcmVzdG9yZS1rZXlzOiB8CiAgICAgICAgICAgICR7eyBydW5uZXIub3MgfX0tbm9kZS0KCiAgICAgIC0gbmFtZTogQ2FjaGUgQ2FyZ28gZGVwZW5kZW5jaWVzCiAgICAgICAgdXNlczogYWN0aW9ucy9jYWNoZUB2NAogICAgICAgIHdpdGg6CiAgICAgICAgICBwYXRoOiB8CiAgICAgICAgICAgIH4vLmNhcmdvL3JlZ2lzdHJ5CiAgICAgICAgICAgIH4vLmNhcmdvL2dpdAogICAgICAgICAgICB0YXJnZXQKICAgICAgICAgIGtleTogJHt7IHJ1bm5lci5vcyB9fS1jYXJnby0ke3sgaGFzaEZpbGVzKCcqKi9DYXJnby5sb2NrJykgfX0KICAgICAgICAgIHJlc3RvcmUta2V5czogfAogICAgICAgICAgICAke3sgcnVubmVyLm9zIH19LWNhcmdvLQoKICAgICAgLSBuYW1lOiBJbnN0YWxsIFNvbGFuYSBDTEkKICAgICAgICBydW46IHNoIC1jICIkKGN1cmwgLXNTZkwgaHR0cHM6Ly9yZWxlYXNlLnNvbGFuYS5jb20vdiR7eyBlbnYuU09MQU5BX1ZFUlNJT04gfX0vaW5zdGFsbCkiCgogICAgICAtIG5hbWU6IEFkZCBTb2xhbmEgdG8gUEFUSAogICAgICAgIHJ1bjogZWNobyAiL2hvbWUvcnVubmVyLy5sb2NhbC9zaGFyZS9zb2xhbmEvaW5zdGFsbC9hY3RpdmVfcmVsZWFzZS9iaW4iID4+ICRHSVRIVUJfUEFUSAoKICAgICAgLSBuYW1lOiBJbnN0YWxsIEFuY2hvcgogICAgICAgIHJ1bjogfAogICAgICAgICAgY2FyZ28gaW5zdGFsbCBhdm0gLS1sb2NrZWQgLS1mb3JjZQogICAgICAgICAgYXZtIGluc3RhbGwgJHt7IGVudi5BTkNIT1JfVkVSU0lPTiB9fQogICAgICAgICAgYXZtIHVzZSAke3sgZW52LkFOQ0hPUl9WRVJTSU9OIH19CiAgICAgICAgICBlY2hvICJ+Ly5hdm0vYmluIiA+PiAkR0lUSFVCX1BBVEgKCiAgICAgIC0gbmFtZTogSW5zdGFsbCBKYXZhU2NyaXB0IGRlcGVuZGVuY2llcwogICAgICAgIHJ1bjogbnBtIGluc3RhbGwKCiAgICAgIC0gbmFtZTogQnVpbGQgUHJvZ3JhbQogICAgICAgIHJ1bjogYW5jaG9yIGJ1aWxkCgogICAgICAtIG5hbWU6IFJ1biBUZXN0cwogICAgICAgIHJ1bjogYW5jaG9yIHRlc3QKCiAgICAgIC0gbmFtZTogVXBsb2FkIEJ1aWxkIEFydGlmYWN0cwogICAgICAgIHVzZXM6IGFjdGlvbnMvdXBsb2FkLWFydGlmYWN0QHY0CiAgICAgICAgd2l0aDoKICAgICAgICAgIG5hbWU6IHNvbGFuYS1wcm9ncmFtLWFydGlmYWN0cwogICAgICAgICAgcGF0aDogdGFyZ2V0L2RlcGxveS8qCgogIGRlcGxveS1kZXZuZXQ6CiAgICBydW5zLW9uOiB1YnVudHUtbGF0ZXN0CiAgICBuZWVkczogYnVpbGQtYW5kLXRlc3QKICAgIGlmOiBnaXRodWIuZXZlbnRfbmFtZSA9PSAncHVzaCcgJiYgZ2l0aHViLnJlZiA9PSAncmVmcy9oZWFkcy9tYWluJwogICAgc3RlcHM6CiAgICAgIC0gbmFtZTogQ2hlY2tvdXQgQ29kZQogICAgICAgIHVzZXM6IGFjdGlvbnMvY2hlY2tvdXRAdjQKCiAgICAgIC0gbmFtZTogRG93bmxvYWQgQnVpbGQgQXJ0aWZhY3RzCiAgICAgICAgdXNlczogYWN0aW9ucy9kb3dubG9hZC1hcnRpZmFjdEB2NAogICAgICAgIHdpdGg6CiAgICAgICAgICBuYW1lOiBzb2xhbmEtcHJvZ3JhbS1hcnRpZmFjdHMKICAgICAgICAgIHBhdGg6IHRhcmdldC9kZXBsb3kKCiAgICAgIC0gbmFtZTogSW5zdGFsbCBTb2xhbmEgQ0xJCiAgICAgICAgcnVuOiBzaCAtYyAiJChjdXJsIC1zU2ZMIGh0dHBzOi8vcmVsZWFzZS5zb2xhbmEuY29tL3Yke3sgZW52LlNPTEFOQV9WRVJTSU9OIH19L2luc3RhbGwpIgoKICAgICAgLSBuYW1lOiBBZGQgU29sYW5hIHRvIFBBVEgKICAgICAgICBydW46IGVjaG8gIi9ob21lL3J1bm5lci8ubG9jYWwvc2hhcmUvc29sYW5hL2luc3RhbGwvYWN0aXZlX3JlbGVhc2UvYmluIiA+PiAkR0lUSFVCX1BBVEgKCiAgICAgIC0gbmFtZTogSW5zdGFsbCBBbmNob3IKICAgICAgICBydW46IHwKICAgICAgICAgIGNhcmdvIGluc3RhbGwgYXZtIC0tbG9ja2VkIC0tZm9yY2UKICAgICAgICAgIGF2bSBpbnN0YWxsICR7eyBlbnYuQU5DSE9SX1ZFUlNJT04gfX0KICAgICAgICAgIGF2bSB1c2UgJHt7IGVudi5BTkNIT1JfVkVSU0lPTiB9fQogICAgICAgICAgZWNobyAifi8uYXZtL2JpbiIgPj4gJEdJVEhVQl9QQVRICgogICAgICAtIG5hbWU6IENvbmZpZ3VyZSBTb2xhbmEgZm9yIERldm5ldAogICAgICAgIHJ1bjogc29sYW5hIGNvbmZpZyBzZXQgLS11cmwgJHt7IHNlY3JldHMuQU5DSE9SX1BST1ZJREVSX1VSTCB8fCBmb3JtYXQoJ2h0dHBzOi8vYXBpLnswfS5zb2xhbmEuY29tJywgZW52Lk5FVFdPUkspIH19CiAgICAgICAgZW52OgogICAgICAgICAgQU5DSE9SX1BST1ZJREVSX1VSTDogJHt7IHNlY3JldHMuQU5DSE9SX1BST1ZJREVSX1VSTCB8fCBmb3JtYXQoJ2h0dHBzOi8vYXBpLnswfS5zb2xhbmEuY29tJywgZW52Lk5FVFdPUkspIH19CgogICAgICAtIG5hbWU6IENyZWF0ZSBEZXBsb3kgS2V5cGFpcgogICAgICAgIHJ1bjogfAogICAgICAgICAgZWNobyAiJHt7IHNlY3JldHMuREVQTE9ZX0tFWVBBSVIgfX0iID4gZGVwbG95LWtleXBhaXIuanNvbgogICAgICAgICAgY2htb2QgNjAwIGRlcGxveS1rZXlwYWlyLmpzb24KICAgICAgICAgIHNvbGFuYSBjb25maWcgc2V0IC0ta2V5cGFpciBkZXBsb3kta2V5cGFpci5qc29uCgogICAgICAtIG5hbWU6IEFpcmRyb3AgRGV2bmV0IFNPTAogICAgICAgIHJ1bjogfAogICAgICAgICAgTUFYX1JFVFJJRVM9MTAKICAgICAgICAgIFJFVFJZX0RFTEFZPTUKICAgICAgICAgIEFJUkRST1BfQU1PVU5UPTIKICAgICAgICAgIGVjaG8gIlJlcXVlc3RpbmcgYWlyZHJvcCBvZiAke0FJUkRST1BfQU1PVU5UfSBTT0wgdG8gJChzb2xhbmEta2V5Z2VuIHB1YmtleSBkZXBsb3kta2V5cGFpci5qc29uKS4uLiIKICAgICAgICAgIGZvciBpIGluICQoc2VxIDEgJE1BWF9SRVRSSUVTKTsgZG8KICAgICAgICAgICAgICBzb2xhbmEgYWlyZHJvcCAkQUlSRFJPUF9BTU9VTlQgLS11cmwgaHR0cHM6Ly9hcGkuJHt7IGVudi5ORVRXT1JLIH19LnNvbGFuYS5jb20gfHwgdHJ1ZSAjIEFsbG93IGFpcmRyb3AgdG8gZmFpbCB3aXRob3V0IHN0b3BwaW5nIHdvcmtmbG93CiAgICAgICAgICAgICAgc2xlZXAgJFJFVFJZX0RFTEFZCiAgICAgICAgICAgICAgQkFMQU5DRT0kKHNvbGFuYSBiYWxhbmNlIC0tdXJsIGh0dHBzOi8vYXBpLiR7eyBlbnYuTkVUV09SSyB9fS5zb2xhbmEuY29tIHwgZ3JlcCAtb0UgJ1swLTldK1wuWzAtOV0rJyB8IGhlYWQgLW4gMSkKICAgICAgICAgICAgICBlY2hvICJDdXJyZW50IGJhbGFuY2U6ICRCQUxBTkNFIFNPTCIKICAgICAgICAgICAgICBpZiAoKCAkKGVjaG8gIiRCQUxBTkNFID4gMC41IiB8IGJjIC1sKSApKTsgdGhlbgogICAgICAgICAgICAgICAgICBlY2hvICJBaXJkcm9wIHN1Y2Nlc3NmdWwuIEJhbGFuY2UgaXMgc3VmZmljaWVudC4iCiAgICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgICAgZmkKICAgICAgICAgICAgICBpZiBbICIkaSIgLWVxICIkTUFYX1JFVFJJRVMiIF07IHRoZW4KICAgICAgICAgICAgICAgICAgZWNobyAiQWlyZHJvcCBmYWlsZWQgYWZ0ZXIgJE1BWF9SRVRSSUVTIHJldHJpZXMuIENvbnRpbnVpbmcgYW55d2F5LCBkZXBsb3kgbWlnaHQgZmFpbCBkdWUgdG8gaW5zdWZmaWNpZW50IGZ1bmRzLiIKICAgICAgICAgICAgICBmaQogICAgICAgICAgZG9uZQogICAgICAgIGVudjoKICAgICAgICAgIEFOQ0hPUl9QUk9WSURFUl9VUkw6ICR7eyBzZWNyZXRzLkFOQ0hPUl9QUk9WSURFUl9VUkwgfHwgZm9ybWF0KCdodHRwczovL2FwaS57MH0uc29sYW5hLmNvbScsIGVudi5ORVRXT1JLKSB9fQoKICAgICAgLSBuYW1lOiBEZXBsb3kgdG8gRGV2bmV0CiAgICAgICAgaWQ6IGRlcGxveQogICAgICAgIHJ1bjogfAogICAgICAgICAgREVQTE9ZX09VVFBVVD0kKGFuY2hvciBkZXBsb3kgLS1wcm92aWRlci5jbHVzdGVyICR7eyBlbnYuTkVUV09SSyB9fSAtLXByb3ZpZGVyLndhbGxldCBkZXBsb3kta2V5cGFpci5qc29uKQogICAgICAgICAgZWNobyAiJERFUExPWV9PVVRQVVQiCiAgICAgICAgICAjIEV4dHJhY3QgcHJvZ3JhbSBJRCBmcm9tIGRlcGxveSBvdXRwdXQgKGV4YW1wbGUgcmVnZXgsIG1pZ2h0IG5lZWQgYWRqdXN0bWVudCBiYXNlZCBvbiBhbmNob3IgdmVyc2lvbikKICAgICAgICAgIFBST0dSQU1fSUQ9JChlY2hvICIkREVQTE9ZX09VVFBVVCIgfCBncmVwICdQcm9ncmFtIElkOicgfCBhd2sgJ3twcmludCAkM30nKQogICAgICAgICAgaWYgWyAteiAiJFBST0dSQU1fSUQiIF07IHRoZW4KICAgICAgICAgICAgICBlY2hvICJXYXJuaW5nOiBDb3VsZCBub3QgZXh0cmFjdCBQcm9ncmFtIElEIGZyb20gZGVwbG95IG91dHB1dC4gQ2hlY2sgQW5jaG9yIGxvZ3MuIgogICAgICAgICAgICAgICMgVHJ5IHRvIGdldCBmcm9tIHRhcmdldC9kZXBsb3kvPHByb2dyYW1fbmFtZT4ta2V5cGFpci5qc29uIGlmIGl0IGV4aXN0cwogICAgICAgICAgICAgIFBST0dSQU1fSUQ9JChqcSAtciAnLlswXScgdGFyZ2V0L2RlcGxveS8qLWtleXBhaXIuanNvbiAyPi9kZXYvbnVsbCB8fCBlY2hvICIiKQogICAgICAgICAgZmkKICAgICAgICAgIGVjaG8gIkRFUExPWUVEX1BST0dSQU1fSUQ9JFBST0dSQU1fSUQiID4+ICRHSVRIVUJfRU5WCiAgICAgICAgZW52OgogICAgICAgICAgQU5DSE9SX1BST1ZJREVSX1VSTDogJHt7IHNlY3JldHMuQU5DSE9SX1BST1ZJREVSX1VSTCB8fCBmb3JtYXQoJ2h0dHBzOi8vYXBpLnswfS5zb2xhbmEuY29tJywgZW52Lk5FVFdPUkspIH19CgogICAgICAtIG5hbWU6IFZlcmlmeSBEZXBsb3ltZW50CiAgICAgICAgaWY6IHN1Y2Nlc3MoKSAmJiBlbnYuREVQTE9ZRURfUFJPR1JBTV9JRCAhPSAnJwogICAgICAgIHJ1bjogfAogICAgICAgICAgZWNobyAiVmVyaWZ5aW5nIGRlcGxveW1lbnQgb2YgcHJvZ3JhbSBJRDogJHt7IGVudi5ERVBMT1lFRF9QUk9HUkFNX0lEIH19IgogICAgICAgICAgc29sYW5hIHByb2dyYW0gc2hvdyAke3sgZW52LkRFUExPWUVEX1BST0dSQU1fSUQgfX0gLS11cmwgaHR0cHM6Ly9hcGkuJHt7IGVudi5ORVRXT1JLIH19LnNvbGFuYS5jb20KICAgICAgICBlbnY6CiAgICAgICAgICBBTkNIT1JfUFJPVklERVJfVVJMOiAke3sgc2VjcmV0cy5BTkNIT1JfUFJPVklERVJfVVJMIHx8IGZvcm1hdCgnaHR0cHM6Ly9hcGkuezB9LnNvbGFuYS5jb20nLCBlbnYuTkVUV09SSykgfX0KCiAgICAgIC0gbmFtZTogQ2xlYW51cCBEZXBsb3kgS2V5cGFpcgogICAgICAgIGlmOiBhbHdheXMoKQogICAgICAgIHJ1bjogcm0gLWYgZGVwbG95LWtleXBhaXIuanNvbgoKICAgICAgLSBuYW1lOiBQb3N0IERlcGxveW1lbnQgSW5mb3JtYXRpb24KICAgICAgICBpZjogc3VjY2VzcygpICYmIGVudi5ERVBMT1lFRF9QUk9HUkFNX0lEICE9ICcnCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBlY2hvICJEZXBsb3ltZW50IHN1Y2Nlc3NmdWwgdG8gRGV2bmV0ISIKICAgICAgICAgIGVjaG8gIlByb2dyYW0gSUQ6ICR7eyBlbnYuREVQTE9ZRURfUFJPR1JBTV9JRCB9fSIKICAgICAgICAgIGVjaG8gIlZpZXcgb24gU29sc2NhbjogaHR0cHM6Ly9zb2xzY2FuLmlvL2FjY291bnQvJHt7IGVudi5ERVBMT1lFRF9QUk9HUkFNX0lEIH19P2NsdXN0ZXI9JHt7IGVudi5ORVRXT1JLIH19Ig==
+name: Anchor Build, Test and Deploy
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+env:
+  SOLANA_VERSION: "1.18.4"
+  ANCHOR_VERSION: "0.30.1"
+  NODE_VERSION: "18"
+  NETWORK: "devnet"
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Cache npm dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Cache Cargo dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            target
+          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-cargo-
+
+      - name: Install Solana CLI
+        run: sh -c "$(curl -sSfL https://release.solana.com/v${{ env.SOLANA_VERSION }}/install)"
+
+      - name: Add Solana to PATH
+        run: echo "/home/runner/.local/share/solana/install/active_release/bin" >> $GITHUB_PATH
+
+      - name: Install Anchor
+        run: |
+          cargo install avm --locked --force
+          avm install ${{ env.ANCHOR_VERSION }}
+          avm use ${{ env.ANCHOR_VERSION }}
+          echo "~/.avm/bin" >> $GITHUB_PATH
+
+      - name: Install JavaScript dependencies
+        run: npm install
+
+      - name: Build Program
+        run: anchor build
+
+      - name: Run Tests
+        run: anchor test
+
+      - name: Upload Build Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: solana-program-artifacts
+          path: target/deploy/*
+
+  deploy-devnet:
+    runs-on: ubuntu-latest
+    needs: build-and-test
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Download Build Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: solana-program-artifacts
+          path: target/deploy
+
+      - name: Install Solana CLI
+        run: sh -c "$(curl -sSfL https://release.solana.com/v${{ env.SOLANA_VERSION }}/install)"
+
+      - name: Add Solana to PATH
+        run: echo "/home/runner/.local/share/solana/install/active_release/bin" >> $GITHUB_PATH
+
+      - name: Install Anchor
+        run: |
+          cargo install avm --locked --force
+          avm install ${{ env.ANCHOR_VERSION }}
+          avm use ${{ env.ANCHOR_VERSION }}
+          echo "~/.avm/bin" >> $GITHUB_PATH
+
+      - name: Configure Solana for Devnet
+        run: solana config set --url ${{ secrets.ANCHOR_PROVIDER_URL || format('https://api.{0}.solana.com', env.NETWORK) }}
+        env:
+          ANCHOR_PROVIDER_URL: ${{ secrets.ANCHOR_PROVIDER_URL || format('https://api.{0}.solana.com', env.NETWORK) }}
+
+      - name: Create Deploy Keypair
+        run: |
+          # Check if the secret is base64 encoded or raw JSON
+          if echo "${{ secrets.DEPLOY_KEYPAIR }}" | base64 --decode > /tmp/test.json 2>/dev/null && jq empty /tmp/test.json 2>/dev/null; then
+            echo "Detected base64 encoded keypair"
+            echo "${{ secrets.DEPLOY_KEYPAIR }}" | base64 --decode > deploy-keypair.json
+          else
+            echo "Detected raw JSON keypair"
+            echo "${{ secrets.DEPLOY_KEYPAIR }}" > deploy-keypair.json
+          fi
+          rm -f /tmp/test.json
+          chmod 600 deploy-keypair.json
+          solana config set --keypair deploy-keypair.json
+
+      - name: Airdrop Devnet SOL
+        run: |
+          MAX_RETRIES=10
+          RETRY_DELAY=5
+          AIRDROP_AMOUNT=2
+          echo "Requesting airdrop of ${AIRDROP_AMOUNT} SOL to $(solana-keygen pubkey deploy-keypair.json)..."
+          for i in $(seq 1 $MAX_RETRIES); do
+              solana airdrop $AIRDROP_AMOUNT --url https://api.${{ env.NETWORK }}.solana.com || true # Allow airdrop to fail without stopping workflow
+              sleep $RETRY_DELAY
+              BALANCE=$(solana balance --url https://api.${{ env.NETWORK }}.solana.com | grep -oE '[0-9]+\.[0-9]+' | head -n 1)
+              echo "Current balance: $BALANCE SOL"
+              if (( $(echo "$BALANCE > 0.5" | bc -l) )); then
+                  echo "Airdrop successful. Balance is sufficient."
+                  break
+              fi
+              if [ "$i" -eq "$MAX_RETRIES" ]; then
+                  echo "Airdrop failed after $MAX_RETRIES retries. Continuing anyway, deploy might fail due to insufficient funds."
+              fi
+          done
+        env:
+          ANCHOR_PROVIDER_URL: ${{ secrets.ANCHOR_PROVIDER_URL || format('https://api.{0}.solana.com', env.NETWORK) }}
+
+      - name: Deploy to Devnet
+        id: deploy
+        run: |
+          DEPLOY_OUTPUT=$(anchor deploy --provider.cluster ${{ env.NETWORK }} --provider.wallet deploy-keypair.json)
+          echo "$DEPLOY_OUTPUT"
+          # Extract program ID from deploy output (example regex, might need adjustment based on anchor version)
+          PROGRAM_ID=$(echo "$DEPLOY_OUTPUT" | grep 'Program Id:' | awk '{print $3}')
+          if [ -z "$PROGRAM_ID" ]; then
+              echo "Warning: Could not extract Program ID from deploy output. Check Anchor logs."
+              # Try to get from target/deploy/<program_name>-keypair.json if it exists
+              PROGRAM_ID=$(jq -r '.[0]' target/deploy/*-keypair.json 2>/dev/null || echo "")
+          fi
+          echo "DEPLOYED_PROGRAM_ID=$PROGRAM_ID" >> $GITHUB_ENV
+        env:
+          ANCHOR_PROVIDER_URL: ${{ secrets.ANCHOR_PROVIDER_URL || format('https://api.{0}.solana.com', env.NETWORK) }}
+
+      - name: Verify Deployment
+        if: success() && env.DEPLOYED_PROGRAM_ID != ''
+        run: |
+          echo "Verifying deployment of program ID: ${{ env.DEPLOYED_PROGRAM_ID }}"
+          solana program show ${{ env.DEPLOYED_PROGRAM_ID }} --url https://api.${{ env.NETWORK }}.solana.com
+        env:
+          ANCHOR_PROVIDER_URL: ${{ secrets.ANCHOR_PROVIDER_URL || format('https://api.{0}.solana.com', env.NETWORK) }}
+
+      - name: Cleanup Deploy Keypair
+        if: always()
+        run: rm -f deploy-keypair.json
+
+      - name: Post Deployment Information
+        if: success() && env.DEPLOYED_PROGRAM_ID != ''
+        run: |
+          echo "Deployment successful to Devnet!"
+          echo "Program ID: ${{ env.DEPLOYED_PROGRAM_ID }}"
+          echo "View on Solscan: https://solscan.io/account/${{ env.DEPLOYED_PROGRAM_ID }}?cluster=${{ env.NETWORK }}"
