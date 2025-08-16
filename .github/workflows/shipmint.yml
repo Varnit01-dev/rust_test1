@@ -50,13 +50,12 @@ jobs:
           sh -c "$(curl -sSfL https://release.solana.com/v${{ env.SOLANA_VERSION }}/install)"
           # Add Solana binaries to the GitHub Actions PATH
           echo "$HOME/.local/share/solana/install/active_release/bin" >> $GITHUB_PATH
-          
+
       - name: Install Anchor
         run: |
-          # Use rustup to install a specific nightly version required by avm
-          # This helps avoid compatibility issues with the default toolchain
-          rustup toolchain install nightly --component clippy
-          rustup default nightly
+          # Pin the Rust nightly toolchain to a known compatible version
+          rustup toolchain install nightly-2022-07-28 --component clippy
+          rustup default nightly-2022-07-28
 
           # Install avm from the specified tag
           cargo install avm --git https://github.com/project-serum/anchor --tag v0.30.1 --locked --force
@@ -67,6 +66,7 @@ jobs:
           # Install and use the specified Anchor version via avm
           avm install ${{ env.ANCHOR_VERSION }}
           avm use ${{ env.ANCHOR_VERSION }}
+
       - name: Install JavaScript Dependencies
         run: npm install
 
@@ -84,8 +84,8 @@ jobs:
 
   deploy-devnet:
     runs-on: ubuntu-latest
-    needs: build-and-test # This job depends on 'build-and-test' completing successfully
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main' # Only deploy on push to main branch
+    needs: build-and-test
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
 
     steps:
       - name: Checkout Code
@@ -104,38 +104,27 @@ jobs:
 
       - name: Install Solana CLI
         run: |
-          # Re-install Solana CLI as environments are isolated between jobs
           sh -c "$(curl -sSfL https://release.solana.com/v${{ env.SOLANA_VERSION }}/install)"
           echo "$HOME/.local/share/solana/install/active_release/bin" >> $GITHUB_PATH
 
       - name: Install Anchor
         run: |
           # Re-install Anchor as environments are isolated between jobs
-          cargo install avm --locked --force
+          cargo install avm --git https://github.com/project-serum/anchor --tag v0.30.1 --locked --force
           echo "$HOME/.cargo/bin" >> $GITHUB_PATH
           avm install ${{ env.ANCHOR_VERSION }}
           avm use ${{ env.ANCHOR_VERSION }}
 
       - name: Configure Solana for Devnet
-        run: |
-          # Set the Solana cluster URL using the NETWORK environment variable
-          solana config set --url ${{ env.NETWORK }}
-          # If secrets.ANCHOR_PROVIDER_URL is provided, it can be used to override
-          # the RPC URL for Anchor, e.g., in anchor deploy command.
-          # For now, anchor deploy will use the URL set by solana config.
-
+        run: solana config set --url https://api.devnet.solana.com
+          
       - name: Create Deploy Keypair
         env:
-          # Access the DEPLOY_KEYPAIR secret securely
           DEPLOY_KEYPAIR: ${{ secrets.DEPLOY_KEYPAIR }}
         run: |
-          # Decode the Base64 encoded keypair and save it to a file
           echo "$DEPLOY_KEYPAIR" | base64 -d > deploy-keypair.json
-          # Set restrictive permissions for the keypair file
           chmod 600 deploy-keypair.json
-          # Configure Solana CLI to use this keypair for subsequent commands
           solana config set --keypair deploy-keypair.json
-          # Log the public key for verification (optional, but useful for debugging)
           solana-keygen pubkey deploy-keypair.json
 
       - name: Airdrop Devnet SOL
@@ -161,31 +150,24 @@ jobs:
           if [ $i -eq $MAX_RETRIES ]; then
             echo "Airdrop failed after $MAX_RETRIES retries. Continuing anyway, but deploy may fail."
           fi
-        env:
-          ANCHOR_PROVIDER_URL: ${{ secrets.ANCHOR_PROVIDER_URL || format('https://api.{0}.solana.com', env.NETWORK) }}
-
+      
       - name: Deploy to Devnet
         id: deploy
         run: |
           DEPLOY_OUTPUT=$(anchor deploy 2>&1)
           echo "$DEPLOY_OUTPUT"
-          # Find the program ID in the output and save it to the workflow environment
           PROGRAM_ID=$(echo "$DEPLOY_OUTPUT" | grep 'Program Id:' | awk '{print $3}')
           if [ -z "$PROGRAM_ID" ]; then
             echo "::error::Could not extract Program ID from deploy output. Check logs."
             exit 1
           fi
           echo "DEPLOYED_PROGRAM_ID=$PROGRAM_ID" >> $GITHUB_ENV
-        env:
-          ANCHOR_PROVIDER_URL: ${{ secrets.ANCHOR_PROVIDER_URL || format('https://api.{0}.solana.com', env.NETWORK) }}
 
       - name: Verify Deployment
         if: success() && env.DEPLOYED_PROGRAM_ID != ''
         run: |
           echo "Verifying deployment of program ID: ${{ env.DEPLOYED_PROGRAM_ID }}"
           solana program show --cluster ${{ env.NETWORK }} ${{ env.DEPLOYED_PROGRAM_ID }}
-        env:
-          ANCHOR_PROVIDER_URL: ${{ secrets.ANCHOR_PROVIDER_URL || format('https://api.{0}.solana.com', env.NETWORK) }}
 
       - name: Cleanup Deploy Keypair
         if: always()
