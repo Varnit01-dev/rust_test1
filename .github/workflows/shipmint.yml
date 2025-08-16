@@ -50,17 +50,23 @@ jobs:
           sh -c "$(curl -sSfL https://release.solana.com/v${{ env.SOLANA_VERSION }}/install)"
           # Add Solana binaries to the GitHub Actions PATH
           echo "$HOME/.local/share/solana/install/active_release/bin" >> $GITHUB_PATH
-
+          
       - name: Install Anchor
         run: |
-          # Install avm (Anchor Version Manager)
-          cargo install avm --locked --force
+          # Use rustup to install a specific nightly version required by avm
+          # This helps avoid compatibility issues with the default toolchain
+          rustup toolchain install nightly --component clippy
+          rustup default nightly
+
+          # Install avm from the specified tag
+          cargo install avm --git https://github.com/project-serum/anchor --tag v0.30.1 --locked --force
+
           # Add avm to PATH
           echo "$HOME/.cargo/bin" >> $GITHUB_PATH
+
           # Install and use the specified Anchor version via avm
           avm install ${{ env.ANCHOR_VERSION }}
           avm use ${{ env.ANCHOR_VERSION }}
-
       - name: Install JavaScript Dependencies
         run: npm install
 
