@@ -1,1 +1,68 @@
-bmFtZTogQW5jaG9yIEJ1aWxkLCBUZXN0IGFuZCBEZXBsb3kKCm9uOgogIHB1c2g6CiAgICBicmFuY2hlczoKICAgICAgLSBtYWluCiAgcHVsbF9yZXF1ZXN0OgogICAgYnJhbmNoZXM6CiAgICAgIC0gbWFpbgoKZW52OgogIFNPTEFOQV9WRVJTSU9OOiAiMS4xOC40IgogIEFOQ0hPUl9WRVJTSU9OOiAiMC4zMC4xIgogIE5PREVfVkVSU0lPTjogIjE4IgogIE5FVFdPUks6ICJkZXZuZXQiCgpqb2JzOgogIGJ1aWxkLWFuZC10ZXN0OgogICAgcnVucy1vbjogdWJ1bnR1LWxhdGVzdAogICAgc3RlcHM6CiAgICAgIC0gbmFtZTogQ2hlY2tvdXQgY29kZQogICAgICAgIHVzZXM6IGFjdGlvbnMvY2hlY2tvdXRAdjQKCiAgICAgIC0gbmFtZTogU2V0dXAgTm9kZS5qcwogICAgICAgIHVzZXM6IGFjdGlvbnMvc2V0dXAtbm9kZUB2NAogICAgICAgIHdpdGg6CiAgICAgICAgICBub2RlLXZlcnNpb246ICR7eyBlbnYuTk9ERV9WRVJTSU9OIH19CgogICAgICAtIG5hbWU6IENhY2hlIE5vZGUgTW9kdWxlcwogICAgICAgIHVzZXM6IGFjdGlvbnMvY2FjaGVAdjQKICAgICAgICB3aXRoOgogICAgICAgICAgcGF0aDogfi8ubnBtCiAgICAgICAgICBrZXk6ICR7eyBydW5uZXIub3MgfX0tbm9kZS0ke3sgaGFzaEZpbGVzKCcqKi9wYWNrYWdlLWxvY2suanNvbicpIH19CiAgICAgICAgICByZXN0b3JlLWtleXM6IHwKICAgICAgICAgICAgJHt7IHJ1bm5lci5vcyB9fS1ub2RlLQoKICAgICAgLSBuYW1lOiBDYWNoZSBDYXJnbyBEZXBlbmRlbmNpZXMKICAgICAgICB1c2VzOiBhY3Rpb25zL2NhY2hlQHY0CiAgICAgICAgd2l0aDoKICAgICAgICAgIHBhdGg6IHwKICAgICAgICAgICAgfi8uY2FyZ28vcmVnaXN0cnkKICAgICAgICAgICAgfi8uY2FyZ28vZ2l0CiAgICAgICAgICBrZXk6ICR7eyBydW5uZXIub3MgfX0tY2FyZ28tJHt7IGhhc2hGaWxlcygnKiovQ2FyZ28ubG9jaycpIH19CiAgICAgICAgICByZXN0b3JlLWtleXM6IHwKICAgICAgICAgICAgJHt7IHJ1bm5lci5vcyB9fS1jYXJnby0KCiAgICAgIC0gbmFtZTogSW5zdGFsbCBTb2xhbmEgQ0xJCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBzaCAtYyAiJChjdXJsIC1zU2ZMIGh0dHBzOi8vcmVsZWFzZS5zb2xhbmEuY29tL3Yke3sgZW52LlNPTEFOQV9WRVJTSU9OIH19L2luc3RhbGwpIgogICAgICAgICAgZWNobyAiJEhPTUUvLmxvY2FsL3NoYXJlL3NvbGFuYS9pbnN0YWxsL2FjdGl2ZV9yZWxlYXNlL2JpbiIgPj4gJEdJVEhVQl9QQVRICiAgICAgICAgICBzb2xhbmEgLS12ZXJzaW9uCgogICAgICAtIG5hbWU6IEluc3RhbGwgQW5jaG9yCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBjYXJnbyBpbnN0YWxsIC0tZ2l0IGh0dHBzOi8vZ2l0aHViLmNvbS9jb3JhbC14eXovYW5jaG9yIGF2bSAtLWxvY2tlZCAtLWZvcmNlCiAgICAgICAgICBlY2hvICIkSE9NRS8uY2FyZ28vYmluIiA+PiAkR0lUSFVCX1BBVEggIyBFbnN1cmUgYXZtIGlzIGluIFBBVEgKICAgICAgICAgIGF2bSB1c2UgJHt7IGVudi5BTkNIT1JfVkVSU0lPTiB9fQogICAgICAgICAgYW5jaG9yIC0tdmVyc2lvbgoKICAgICAgLSBuYW1lOiBJbnN0YWxsIEphdmFTY3JpcHQgZGVwZW5kZW5jaWVzCiAgICAgICAgcnVuOiBucG0gaW5zdGFsbAoKICAgICAgLSBuYW1lOiBCdWlsZCBQcm9ncmFtCiAgICAgICAgcnVuOiBhbmNob3IgYnVpbGQKCiAgICAgIC0gbmFtZTogUnVuIFRlc3RzCiAgICAgICAgcnVuOiBhbmNob3IgdGVzdAoKICAgICAgLSBuYW1lOiBVcGxvYWQgQnVpbGQgQXJ0aWZhY3RzCiAgICAgICAgdXNlczogYWN0aW9ucy91cGxvYWQtYXJ0aWZhY3RAdjQKICAgICAgICB3aXRoOgogICAgICAgICAgbmFtZTogcHJvZ3JhbS1hcnRpZmFjdHMKICAgICAgICAgIHBhdGg6IHwKICAgICAgICAgICAgdGFyZ2V0L2RlcGxveS8KICAgICAgICAgICAgdGFyZ2V0L2lkbC8KICAgICAgICAgICAgQW5jaG9yLnRvbWwKCiAgZGVwbG95LWRldm5ldDoKICAgIHJ1bnMtb246IHVidW50dS1sYXRlc3QKICAgIG5lZWRzOiBidWlsZC1hbmQtdGVzdAogICAgaWY6IGdpdGh1Yi5ldmVudF9uYW1lID09ICdwdXNoJyAmJiBnaXRodWIucmVmID09ICdyZWZzL2hlYWRzL21haW4nCiAgICBzdGVwczoKICAgICAgLSBuYW1lOiBDaGVja291dCBjb2RlCiAgICAgICAgdXNlczogYWN0aW9ucy9jaGVja291dEB2NAoKICAgICAgLSBuYW1lOiBEb3dubG9hZCBCdWlsZCBBcnRpZmFjdHMKICAgICAgICB1c2VzOiBhY3Rpb25zL2Rvd25sb2FkLWFydGlmYWN0QHY0CiAgICAgICAgd2l0aDoKICAgICAgICAgIG5hbWU6IHByb2dyYW0tYXJ0aWZhY3RzCiAgICAgICAgICBwYXRoOiAuICMgVGhpcyB3aWxsIHBsYWNlIHRhcmdldC9kZXBsb3kgYW5kIHRhcmdldC9pZGwgaW4gdGhlIHJvb3Qgb2YgdGhlIHdvcmtzcGFjZS4KCiAgICAgIC0gbmFtZTogU2V0dXAgTm9kZS5qcyAoZm9yIGRlcGxveSBqb2IpCiAgICAgICAgdXNlczogYWN0aW9ucy9zZXR1cC1ub2RlQHY0CiAgICAgICAgd2l0aDoKICAgICAgICAgIG5vZGUtdmVyc2lvbjogJHt7IGVudi5OT0RFX1ZFUlNJT04gfX0KCiAgICAgIC0gbmFtZTogSW5zdGFsbCBTb2xhbmEgQ0xJIChmb3IgZGVwbG95IGpvYikKICAgICAgICBydW46IHwKICAgICAgICAgIHNoIC1jICIkKGN1cmwgLXNTZkwgaHR0cHM6Ly9yZWxlYXNlLnNvbGFuYS5jb20vdiR7eyBlbnYuU09MQU5BX1ZFUlNJT04gfX0vaW5zdGFsbCkiCiAgICAgICAgICBlY2hvICIkSE9NRS8ubG9jYWwvc2hhcmUvc29sYW5hL2luc3RhbGwvYWN0aXZlX3JlbGVhc2UvYmluIiA+PiAkR0lUSFVCX1BBVEgKICAgICAgICAgIHNvbGFuYSAtLXZlcnNpb24KCiAgICAgIC0gbmFtZTogSW5zdGFsbCBBbmNob3IgKGZvciBkZXBsb3kgam9iKQogICAgICAgIHJ1bjogfAogICAgICAgICAgY2FyZ28gaW5zdGFsbCAtLWdpdCBodHRwczovL2dpdGh1Yi5jb20vY29yYWwteHl6L2FuY2hvciBhdm0gLS1sb2NrZWQgLS1mb3JjZQogICAgICAgICAgZWNobyAiJEhPTUUvLmNhcmdvL2JpbiIgPj4gJEdJVEhVQl9QQVRIICMgRW5zdXJlIGF2bSBpcyBpbiBQQVRICiAgICAgICAgICBhdm0gdXNlICR7eyBlbnYuQU5DSE9SX1ZFUlNJT04gfX0KICAgICAgICAgIGFuY2hvciAtLXZlcnNpb24KCiAgICAgIC0gbmFtZTogQ3JlYXRlIERlcGxveSBLZXlwYWlyCiAgICAgICAgcnVuOiBlY2hvICIke3sgc2VjcmV0cy5ERVBMT1lfS0VZUEFJUiB9fSIgfCBiYXNlNjQgLWQgPiBkZXBsb3kta2V5cGFpci5qc29uCiAgICAgICAgc2hlbGw6IGJhc2gKCiAgICAgIC0gbmFtZTogQ29uZmlndXJlIFNvbGFuYSBmb3IgRGV2bmV0CiAgICAgICAgcnVuOiB8CiAgICAgICAgICBzb2xhbmEgY29uZmlnIHNldCAtLXVybCBodHRwczovL2FwaS4ke3sgZW52Lk5FVFdPUksgfX0uc29sYW5hLmNvbQogICAgICAgICAgc29sYW5hIGNvbmZpZyBzZXQgLS1rZXlwYWlyIGRlcGxveS1rZXlwYWlyLmpzb24KICAgICAgICAgIHNvbGFuYSBjb25maWcgZ2V0CgogICAgICAtIG5hbWU6IEFpcmRyb3AgRGV2bmV0IFNPTAogICAgICAgIHJ1bjogfAogICAgICAgICAgc29sYW5hIGFpcmRyb3AgNSAtdSAke3sgZW52Lk5FVFdPUksgfX0gLS1rZXlwYWlyIGRlcGxveS1rZXlwYWlyLmpzb24gfHwgZWNobyAiQWlyZHJvcCBmYWlsZWQsIGNvbnRpbnVpbmcgYW55d2F5IChtaWdodCBiZSByYXRlLWxpbWl0ZWQgb3IgZW5vdWdoIFNPTCBhbHJlYWR5KS4iCiAgICAgICAgZW52OgogICAgICAgICAgU09MQU5BX0NMVVNURVJfVVJMOiBodHRwczovL2FwaS4ke3sgZW52Lk5FVFdPUksgfX0uc29sYW5hLmNvbQogICAgICAgIGNvbnRpbnVlLW9uLWVycm9yOiB0cnVlICMgQWlyZHJvcHMgY2FuIHNvbWV0aW1lcyBmYWlsIGR1ZSB0byByYXRlIGxpbWl0cyBvciBhbHJlYWR5IHN1ZmZpY2llbnQgZnVuZHMuCgogICAgICAtIG5hbWU6IERlcGxveSB0byBEZXZuZXQKICAgICAgICBydW46IHwKICAgICAgICAgIGFuY2hvciBkZXBsb3kgLS1wcm92aWRlci5jbHVzdGVyICR7eyBlbnYuTkVUV09SSyB9fQogICAgICAgIGVudjoKICAgICAgICAgIEFOQ0hPUl9QUk9WSURFUl9VUkw6ICR7eyBzZWNyZXRzLkFOQ0hPUl9QUk9WSURFUl9VUkwgfHwgZm9ybWF0KCdodHRwczovL2FwaS57MH0uc29sYW5hLmNvbScsIGVudi5ORVRXT1JLKSB9fQoKICAgICAgLSBuYW1lOiBWZXJpZnkgRGVwbG95bWVudAogICAgICAgIHJ1bjogfAogICAgICAgICAgZWNobyAiVmVyaWZ5aW5nIGRlcGxveW1lbnQgYnkgbGlzdGluZyBwcm9ncmFtcyBvbiAke3sgZW52Lk5FVFdPUksgfX0uLi4iCiAgICAgICAgICBhbmNob3IgcHJvZ3JhbXMgbGlzdCAtLWNsdXN0ZXIgJHt7IGVudi5ORVRXT1JLIH19CgogICAgICAtIG5hbWU6IENsZWFudXAgS2V5cGFpcgogICAgICAgIGlmOiBhbHdheXMoKSAjIEVuc3VyZSBjbGVhbnVwIGhhcHBlbnMgZXZlbiBpZiBwcmV2aW91cyBzdGVwcyBmYWlsCiAgICAgICAgcnVuOiBybSAtZiBkZXBsb3kta2V5cGFpci5qc29uCgogICAgICAtIG5hbWU6IFBvc3QgRGVwbG95bWVudCBJbmZvCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBlY2hvICJEZXBsb3ltZW50IHByb2Nlc3MgY29tcGxldGVkLiIKICAgICAgICAgIGVjaG8gIkNoZWNrIHRoZSAnRGVwbG95IHRvIERldm5ldCcgc3RlcCBvdXRwdXQgZm9yIHByb2dyYW0gSURzIGFuZCB0cmFuc2FjdGlvbiBkZXRhaWxzLiI=
+Act as an expert in Solana development and DevOps. Your task is to generate a complete GitHub Actions workflow YAML file for a Solana project built with the Anchor framework.
+
+Here is the information about the user's repository:
+- **Repository Name:** {{ .RepoFullName }}
+- **Detected Framework:** {{ .Framework }}
+- **Network:** {{ .Network }}
+- **Files in Root Directory:**
+  {{ range .Files }}- {{ . }}
+  {{ end }}
+
+**IMPORTANT: Generate ONLY the raw YAML content. Do NOT encode, encrypt, or modify the output in any way. Output the YAML file exactly as it should appear in .github/workflows/ directory.**
+
+**Instructions for the YAML file:**
+
+1. **Name:** The workflow should be named "Anchor Build, Test and Deploy".
+
+2. **Triggers:** The workflow must trigger on `push` and `pull_request` events to the `main` branch.
+
+3. **Environment Variables:** Set the following environment variables:
+   - `SOLANA_VERSION`: "1.18.4"
+   - `ANCHOR_VERSION`: "0.30.1"
+   - `NODE_VERSION`: "18"
+   - `NETWORK`: "{{ .Network }}"
+
+4. **Jobs:** The workflow must contain two jobs:
+
+   **Job 1: `build-and-test`** (runs on `ubuntu-latest`)
+   - **Checkout Code:** Use `actions/checkout@v4`.
+   - **Setup Node.js:** Use `actions/setup-node@v4` with Node version from env.
+   - **Cache Dependencies:** Cache both npm and Cargo dependencies for faster builds.
+   - **Install Solana CLI:** Use the official Solana install script with version from env.
+   - **Add Solana to PATH:** Ensure the Solana binary is available in the GitHub Actions path.
+   - **Install Anchor:** Use `cargo` to install `avm` (Anchor Version Manager), then use `avm` to install and select the version from env.
+   - **Install Dependencies:** Run `npm install` to install JavaScript dependencies.
+   - **Build Program:** Run the `anchor build` command to compile the on-chain program.
+   - **Run Tests:** Run the `anchor test` command to execute the test suite.
+   - **Upload Build Artifacts:** Upload the compiled program files for deployment.
+
+   **Job 2: `deploy-devnet`** (runs on `ubuntu-latest`, depends on `build-and-test`)
+   - **Condition:** Only run on push to main branch.
+   - **Checkout Code:** Use `actions/checkout@v4`.
+   - **Download Build Artifacts:** Download the compiled program from the previous job.
+   - **Setup Environment:** Restore Solana CLI and Anchor setup.
+   - **Configure Solana for Devnet:** Set Solana config to use devnet cluster.
+   - **Create Deploy Keypair:** IMPORTANT - Use this exact command: `echo "${{ secrets.DEPLOY_KEYPAIR }}" | base64 -d > deploy-keypair.json` (Do NOT encode this line)
+   - **Airdrop Devnet SOL:** Request devnet SOL for deployment fees.
+   - **Deploy to Devnet:** Run `anchor deploy` with devnet configuration.
+   - **Verify Deployment:** Check if program deployed successfully.
+   - **Cleanup:** Remove sensitive keypair files with `rm -f deploy-keypair.json`.
+   - **Post Deployment Info:** Log deployment details and program ID.
+
+5. **Required Secrets:**
+   - `DEPLOY_KEYPAIR`: Base64 encoded deployment keypair JSON
+   - `ANCHOR_PROVIDER_URL`: Devnet RPC URL (optional, defaults to public devnet)
+
+6. **Security Considerations:**
+   - Never expose private keys in logs
+   - Clean up keypair files after deployment
+   - Use proper secret management
+   - Add deployment verification steps
+
+**CRITICAL INSTRUCTIONS:**
+- Output ONLY the YAML content
+- Do NOT add markdown code blocks (no ```yaml or ```)
+- Do NOT base64 encode the entire file
+- Do NOT add explanations before or after the YAML
+- The GitHub secret DEPLOY_KEYPAIR should contain the base64 encoded keypair, but the YAML file itself should be plain text
+- Start your response directly with "name: Anchor Build, Test and Deploy"
